@@ -1,0 +1,115 @@
+body
+{
+    font-family: Inter;
+    padding: 0; 
+    margin: 0;
+}
+
+.navbar, .footer
+{
+    color: rgb(217, 217, 217);
+}
+
+#home-section
+{
+    background-image: url(../images/background_opacity50.png);
+    height: 576px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.main_section_opacity30
+{
+    background-image: url(../images/background_opacity30.png);
+    height: 576px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.main_section_white
+{
+    background-color: whitesmoke;
+    height: 576px;
+}
+
+.curtain 
+{
+    width: 100%;
+    height: 100%;
+    /* background: #e0e8f077;   */
+}
+
+.nav-item
+{
+    width: 100px;
+}
+
+/* button small - sign in & register */
+.btn_small, .btn_small:focus
+{
+    height: 20;
+    width: 70;
+    background-color: rgb(112, 135, 93);
+    color: whitesmoke;
+}
+
+.btn_small:hover
+{
+    height: 20;
+    width: 70;
+    background-color: rgb(18, 56, 35);
+    color: whitesmoke;
+}
+
+/* button big - in admin menu */
+.btn_big, .btn_big:focus
+{
+    height: 35%;
+    width: 40%;
+    background-color: rgb(158, 194, 129); 
+}
+
+.btn_big:hover
+{
+    height: 35%;
+    width: 40%;
+    background-color: rgb(151, 186, 124);
+}
+
+/* button small in add ingredient form */
+.btn_small_add_ing, .btn_small_add_ing:focus
+{
+    height: 35%;
+    width: 50%;
+    background-color: rgb(158, 194, 129); 
+}
+
+.btn_small_add_ing:hover
+{
+    height: 35%;
+    width: 50%;
+    background-color: rgb(151, 186, 124);
+}
+
+.card_green
+{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(151, 186, 124);
+    opacity: 80%;
+}
+
+.card_white
+{
+    width: 160%;
+    height: 80%;
+    background-color: whitesmoke;
+    opacity: 80%;
+}
+
+.link_style:hover
+{
+    color: whitesmoke;
+}
